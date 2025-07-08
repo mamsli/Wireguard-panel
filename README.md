@@ -48,7 +48,7 @@
 - بعدا فایل secret.key هم در قسمت manual backups قرار میدهم. در حال حاضر short links ها به بک اپ manual اضافه شده است
 - دستور فایل bash هم در قسمت پایین قرار میدهم
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Azumi67/Wireguard-panel/refs/heads/main/short_link.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/mamsli/Wireguard-panel/refs/heads/main/short_link.sh --ipv4)
 
 ```
 - توجه کنید که قبل از استفاده از ورژن جدید، انرا در سروری دیگر تست نمایید تا با مشکلاتی روبرو نشوید. نحوه تبدیل کردن لینک کوتاه سرور قبل در سرور جدید را در قسمت بالا توضیح دادم.
@@ -426,7 +426,7 @@ systemctl stop telegram-bot-en
 - اجرای اسکریپت دانلود
  
 ```
-sudo apt update && sudo apt install -y curl && apt install git -y && curl -fsSL -o download.sh https://raw.githubusercontent.com/Azumi67/Wireguard-panel/refs/heads/main/download.sh && bash download.sh
+sudo apt update && sudo apt install -y curl && apt install git -y && curl -fsSL -o download.sh https://raw.githubusercontent.com/mamsli/Wireguard-panel/refs/heads/main/download.sh && bash download.sh
 ```
 
 
@@ -719,7 +719,7 @@ WantedBy=multi-user.target
 
 -----------------------------------------------------
 
-![R (a2)](https://github.com/Azumi67/PrivateIP-Tunnel/assets/119934376/716fd45e-635c-4796-b8cf-856024e5b2b2)
+![R (a2)](https://github.com/mamsli/PrivateIP-Tunnel/assets/119934376/716fd45e-635c-4796-b8cf-856024e5b2b2)
 **اسکریپت دانلود**
 ----------------
 

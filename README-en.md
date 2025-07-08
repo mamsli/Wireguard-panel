@@ -330,7 +330,7 @@ systemctl stop telegram-bot-en
 - Run the script first
  
 ```
-sudo apt update && sudo apt install -y curl && apt install git -y && curl -fsSL -o download.sh https://raw.githubusercontent.com/Azumi67/Wireguard-panel/refs/heads/main/download.sh && bash download.sh
+sudo apt update && sudo apt install -y curl && apt install git -y && curl -fsSL -o download.sh https://raw.githubusercontent.com/mamsli/Wireguard-panel/refs/heads/main/download.sh && bash download.sh
 ```
 
 
@@ -621,7 +621,7 @@ WantedBy=multi-user.target
 - Main script to install & update
 
 ```
-sudo apt update && sudo apt install -y curl && apt install git -y && curl -fsSL -o download.sh https://raw.githubusercontent.com/Azumi67/Wireguard-panel/refs/heads/main/download.sh && bash download.sh
+sudo apt update && sudo apt install -y curl && apt install git -y && curl -fsSL -o download.sh https://raw.githubusercontent.com/mamsli/Wireguard-panel/refs/heads/main/download.sh && bash download.sh
 
 ```
 
