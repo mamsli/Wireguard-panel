@@ -1,0 +1,3 @@
+remove azumi/azumi67
+remove the setup.sh ascii art
+replace the github repo link
